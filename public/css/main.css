@@ -262,6 +262,14 @@ a {
 	justify-content: space-between;
 }
 
+.grade-movie i{
+	color: rgb(184, 174, 174);	
+}
+
+.grade-movie i:hover{
+	color: rgba(241, 34, 34, 0.822);
+}
+
 /* footer  */
 
 .footer {
@@ -299,4 +307,8 @@ a {
 	color: #bababa;
 	text-decoration: none;
 	transition: all 0.2s ease-in-out;
+}
+
+.footer ul li > a:hover{
+	color: #e4bb23;
 }
